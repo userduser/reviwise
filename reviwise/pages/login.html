@@ -1,0 +1,44 @@
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <title>Log in</title>
+              <link rel="stylesheet" type="text/css" href="/reviwise/styles/styles.css" />
+              <script src="/reviwise/scripts.js"></script>
+            </head>
+              <body>
+                  <nav>
+                      <div class="menu">
+
+                          <div class="logo">
+                              <a href="/reviwise/index.html">
+                              <img src="/reviwise/images/R-LOGO.svg" class="header-logo">
+                              <p>Home Page</p>
+                              </a>
+                          </div>
+
+                          <div class="menu-buttons">
+                            <a class="m-button" href="/reviwise/pages/signup.html">Sign up</a>
+                          </div>
+                      </div>
+
+                      <div class="backdrop"></div>
+                  </nav>
+              
+                  <h1>Log in</h1>
+                  <div class="login-box">
+                      <h2>Log in</h2>
+
+                      <form id="loginForm" action="/reviwise/login.php" method="post">
+
+                          <label for="username">Username:</label>
+                          <input type="text" id="username" name="username" required>
+                          
+                          <label for="password">Password:</label>
+                          <input type="password" id="password" name="password" required>
+                  
+                          <button class="input-button" type="submit" value="Login">Login</button>
+                      </form>
+
+                  </div>
+              </body>
+          </html>
